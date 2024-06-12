@@ -87,16 +87,16 @@ We need data on the VanArsdel Company in 2017 that includes their
 Sales data along with details of Product, Date and Geography are available in an Excel workbook. Data from these sources need to be brought together to analyze and report on.
 
 # Stages (ETL)
--Import Data
--Clean Data
--Manage relationship
+- Import Data
+- Clean Data
+- Manage relationship
 - Design
 - Developement
 - Testing
 - Analysis 
 
 ##  Import Data
-Get Data
+- Get Data
 
 ## Transform Data
 - Clean Data
