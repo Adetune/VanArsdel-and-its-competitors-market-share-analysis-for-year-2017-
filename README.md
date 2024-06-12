@@ -1,6 +1,6 @@
 # VanArsdel and its competitors
 ## market share analysis for year 2017
-
+## Excel to Power BI Project
 
 
 
@@ -53,6 +53,7 @@ To create a dashboard that provides insights into the VanArsdel and its competit
 - Sum of Revenue by Segment
 - Sum of Revenue by MonthName and Manufacturer(groups)
 - Sum of Revenue by State and Segment
+- Sales by State
 
 This will help the Chief Marketing Officer (CMO) make informed decisions about how well does VanArsdel product sell and how well is VanArsdel doing against their competing product in the industry for the year 2017.
 
@@ -60,57 +61,61 @@ This will help the Chief Marketing Officer (CMO) make informed decisions about h
 
 As the the Chief Marketing Officer (CMO) of VanArsdel Company, I want to use a dashboard that analyses how well our company product sell in 2017. 
 This dashboard should allow me to identify how well is our product doing against our competing product in the industry for the year 2017.
-This dashboard should allow me to analyse sales revenue accross all manufaturers on the year 2017.
+This dashboard should allow me to analyse sales revenue accross all manufaturers on the year 2017. 
 This dashboard should allow me to analyse revenue by manufaturers on the year 2017.
 This dashboard should allow me to analyse sales by segment on the year 2017. (Segment report).
 This dashboard should allow me to compare VanArsdel sales and revenue with other competitors.
 This dashboard should allow me to identify or show the market shares analysis.
+This dashboard should allow me to analyse Sales by State
+This dashboard should allow me to compare revenue by category and state in tabular view.
 
-
-
-This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views. 
-
-With this information, I can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is.
+With this information, I can make more informed decisions abouthow well our company VanArsdel product sell in 2017.
+Also how well VanArsdel product doing against our competing product in the industry for the year 2017. 
 
 
 # Data source 
 
 - What data is needed to achieve our objective?
 
-We need data on the top UK YouTubers in 2024 that includes their 
-- channel names
-- total subscribers
-- total views
-- total videos uploaded
+We need data on the VanArsdel Company in 2017 that includes their 
+- sales
+- product
+- geograpy
+- date
 
+   Where is the data coming from? 
+Sales data along with details of Product, Date and Geography are available in an Excel workbook. Data from these sources need to be brought together to analyze and report on.
 
-
-- Where is the data coming from? 
-The data is sourced from Kaggle (an Excel extract), [see here to find it.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
-
-
-# Stages
-
+# Stages (ETL)
+-Import Data
+-Clean Data
+-Manage relationship
 - Design
 - Developement
 - Testing
 - Analysis 
- 
 
+##  Import Data
+Get Data
 
+## Transform Data
+- Clean Data
+
+ ## Manage relationship
+- We need to load data from 4 tables
+- We need to ensure the model identifies relationship between these tables.
+  
 # Design 
 
 ## Dashboard components required 
 - What should the dashboard contain based on the requirements provided?
 
-To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
-
-1. Who are the top 10 YouTubers with the most subscribers?
-2. Which 3 channels have uploaded the most videos?
-3. Which 3 channels have the most views?
-4. Which 3 channels have the highest average views per video?
-5. Which 3 channels have the highest views per subscriber ratio?
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+ To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+1. Any sales that happened, we want to analyse it by month for year 2017 for each manufactural 
+2. Who is contributiing more total sales?
+3. Which seginment is making the highest sales?
+4. Which company is making the highset market shares?
+5. To compare VanArsdel with the rest of the competitors
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis. 
 
@@ -121,9 +126,67 @@ For now, these are some of the questions we need to answer, this may change as w
 
 Some of the data visuals that may be appropriate in answering our questions include:
 
-1. Table
-2. Treemap
-3. Scorecards
-4. Horizontal bar chart 
+1. Line and Clustered Column chart
+2. Treemap chart
+3. Donut chart
+4. Stacked area chart
+5. Map visual 
+6. Matrix visual 
 
+
+
+![Dashboard-Mockup](assets/images/dashboard_mockup.png)
+
+
+## Tools 
+
+
+| Tool | Purpose |
+| --- | --- |
+| Excel | Exploring the data |
+| Power BI | Cleaning, testing, and analyzing the data |
+| Power BI | Visualizing the data via interactive dashboards |
+| GitHub | Hosting the project documentation and version control |
+| Mokkup AI | Designing the wireframe/mockup of the dashboard | 
+
+
+# Development
+
+## Pseudocode
+
+- What's the general approach in creating this solution from start to finish?
+
+1. Get the data
+2. Explore the data in Excel
+3.Transform the data in Power BI
+5. Clean the data with Power BI
+6. Load the data into Power BI
+7. Test the data with Power BI
+8. Visualize the data in Power BI
+9. Generate the findings based on the insights
+10. Write the documentation + commentary
+11. Publish the data to GitHub Pages
+
+## Data exploration notes
+
+This is the stage where you have a scan of what's in the data, errors, inconcsistencies, repitetions, weird and corrupted characters etc  
+
+
+- What are your initial observations with this dataset? What's caught your attention so far?
+
+1. There are at least 4 tables that contain the data from these sourcesthat is  need for to be brought together to analyse and report on, which signals we have everything we need from the file without needing to contact the VanArsdel company and competitors for any more data. 
+2. The Date table contains the Month column, this is a repetition we do not need Month column -  we need to remove  Month column from the Date column.
+3. The product table contains the Product Name and Product ID is concatenated in Product column, we need to split it so that we have just the Product Name. -  we need to use Split Column by Delimiter, Enter “-“ in the text area. Product column is split into two columns Product.1 and Product.2. We do not need Product.2 since we already have a ProductID column. Remove Product.2 and Rename Product.1 to Product.
+4. We have now transformed all the data in the query editor, then we close and apply to load all the tables into Power BI 
+
+
+- What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
+
+The aim is to refine our dataset to ensure it is structured and ready for analysis. 
+
+The cleaned data should meet the following criteria and constraints:
+
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
 
