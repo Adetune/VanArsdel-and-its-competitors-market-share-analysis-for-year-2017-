@@ -101,7 +101,7 @@ Sales data along with details of Product, Date and Geography are available in an
 ## Transform Data
 - Clean Data
 
- ## Manage relationship
+## Manage relationship
 - We need to load data from 4 tables
 - We need to ensure the model identifies relationship between these tables.
   
