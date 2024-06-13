@@ -223,3 +223,100 @@ Below is a table outlining the constraints on our cleaned dataset:
    
 ## Manage relationship
 
+## grouping VanArsdel and its competitors
+
+# Visualization 
+
+
+## Results
+
+- What does the dashboard look like?
+
+![GIF of Power BI Dashboard](assets/images/top_uk_youtubers_2024.gif)
+
+This shows the VanArsdel and its competitors market share analysis for year 2017 so far. 
+
+## DAX Measures
+
+### 1. Total Revenue 
+```
+    Total Revenue = Sum(Sales[Revenue])
+
+RETURN Total Revenue
+
+```
+
+### 2. Revenue less charge = Sales[Revenue]-1
+```
+    Revenue less charge = Sales[Revenue]-1
+
+RETURN Revenue less charge
+
+```
+
+### 3.  Total Tax 
+```
+    Total Tax = SUM(Sales[Revenue]) *0.18
+
+RETURN Revenue less charge
+
+```
+
+### 4.  Total Unit
+```
+   Total Unit = SUM(Sales[Units])
+
+RETURN Revenue less charge
+
+```
+
+### 5.  Competitors Tax
+```
+  Competitors Tax = CALCULATE ([Total Tax],'Product'[Manufacturer (groups)] = "Competitors")
+
+RETURN Competitors Tax
+
+```
+
+To see tax paid across califonia 
+
+### 6.   CA Tax 
+```
+   CA Tax = CALCULATE([Total Tax], Geo[State] = "CA")
+
+RETURN  CA Tax 
+
+```
+
+ ### 7.  % Comp Tax
+```
+   % Comp Tax = [Competitors Tax] / [Total Tax]
+
+RETURN  % Comp Tax
+
+```
+### 8.   % VA Tax
+```
+  % VA Tax = 1 - [% Comp Tax]
+
+RETURN  % VA Tax
+
+```
+### 9.  SPLY (Same peroiod last year)
+```
+SPLY = CALCULATE([Total Revenue],SAMEPERIODLASTYEAR('Date'[Date]))
+
+RETURN SPLY
+
+```
+### 10.   % Growth
+```
+% Growth = [SPLY] / [Total Revenue]
+
+RETURN % Growth
+
+```
+
+### Predictive
+
+### Forecasting
