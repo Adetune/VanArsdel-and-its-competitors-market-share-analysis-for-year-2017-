@@ -214,7 +214,12 @@ Below is a table outlining the constraints on our cleaned dataset:
 | Number of Columns | 5 |
 
 
+- What steps are needed to clean and shape the data into the desired format?
 
-
-
+1. Remove unnecessary columns by only selecting the ones you need
+2. Extract Youtube channel names from the first column
+3. Rename columns using aliases
+   
+   
+## Manage relationship
 
