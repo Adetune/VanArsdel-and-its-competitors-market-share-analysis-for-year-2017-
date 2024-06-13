@@ -190,3 +190,31 @@ The cleaned data should meet the following criteria and constraints:
 - All data types should be appropriate for the contents of each column.
 - No column should contain null values, indicating complete data for all records.
 
+
+Below is a table outlining the constraints on our cleaned dataset:
+
+| Description | Date |
+| --- | --- |
+| Number of Rows | 731 |
+| Number of Columns | 5 |
+
+| Description | Product |
+| --- | --- |
+| Number of Rows | 1,245 |
+| Number of Columns | 7 |
+
+| Description | Geo |
+| --- | --- |
+| Number of Rows | 7,416 |
+| Number of Columns | 6 |
+
+| Description | Sales |
+| --- | --- |
+| Number of Rows | 117,917 |
+| Number of Columns | 5 |
+
+
+
+
+
+
