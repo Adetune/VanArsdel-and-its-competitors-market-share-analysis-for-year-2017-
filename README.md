@@ -288,8 +288,7 @@ To see tax paid across califonia
 RETURN  CA Tax 
 
 ```
-
- ### 7.  % Comp Tax
+### 7.  % Comp Tax
 ```
    % Comp Tax = [Competitors Tax] / [Total Tax]
 
@@ -325,8 +324,13 @@ RETURN % Growth
 
 
 ### Comparing VanArsdel Sales and Revevene with other competitors.
+The insight on the manufacturuing dashboard
+As conclusion the the stack areas shows diffrenebt manufactures revenues in diffrent monthe and years but we only have a data for about six month 2017. Based on everything on the report in March they generated and extra highest revenues of 4,80900, April 4.6 and the lowest month of January and it increase gradually up to March.
+Based on the revenue ValArsdel has the highest revenue compare to the other competitors. Also second of Natura,following by Alqui which was arround 3.06 million and pirum.
+Also ValArsdel have the highest amount of market share compare ti the other markets in Califonia, New York, and Texas.
 
-
+Also there was the maxify increase from Febuary to March which we donot understand why it happen do they spend more money on advert or more marketing just to understand why it happen.
+Also in march accounted for 4.8 millon 
 
 ## Discovery
 
