@@ -329,8 +329,47 @@ As conclusion the the stack areas shows diffrenebt manufactures revenues in diff
 Based on the revenue ValArsdel has the highest revenue compare to the other competitors. Also second of Natura,following by Alqui which was arround 3.06 million and pirum.
 Also ValArsdel have the highest amount of market share compare ti the other markets in Califonia, New York, and Texas.
 
-Also there was the maxify increase from Febuary to March which we donot understand why it happen do they spend more money on advert or more marketing just to understand why it happen.
-Also in march accounted for 4.8 millon 
+Also there was the maxify increase from Febuary to March which we donot understand why it happen do they spend more money on advert or more marketing just to understand why it happen. Also in March accounted for 4.8 million the most highest revenue for the month. the cloest rival is Natura, Aliqui they have more diverse market compare to Valarsdel .
+ValAsrdel was dealing with Urban only. Nature and Aliqui was dealing with Rural, Youth which is mixed. They have more diverse market then VanAsrdal.
+Understand why VanArsdel focus on Urban they can actually maximise their profit by going to other market to go and inveset on youth segiment.
+Talking of competitors looking at Natura and Aliqui on the map, they have more segment than VanArsdel , VanArrsdel is more under moderation and convenience and the other one account for nothing. 
+But Natura and Aliqui they have more pretty much diverse market. As time goes on VanAsrdel has the highest market score their perfomance increased from March as well as other country also they decline as the month towards June.
+
+### Recomendation
+They should look at the segment  (Areas)
+How they can increase sale.
+The  areas they are perfoming strongly should be look into to continue doing what they are doing.
+
+
+VanAsrdel is manufactuing company 
+The goal of this report is to compare VanAsrdel manufactuing company and four other company, also we want to know the performance of want we have done for 2017 to be able to improve profitability and increase our revenue on daliy, weekly monthly bases
+
+### 1. The Revenue and sum of unit by Monthname chart.
+The revenue is the amount of money that we had and the number of items that is being sold during that particualr peroid of time so the question here is that we can noticed that Jan and Feb was within the range. March their was a spike that went up above 4 millon. 
+So the question is that what have we done diffrently that make give us the increase inoother to apply it , this could be adverment those things. So  that monthly basis our revenue and unit setting will go higher. Also i April , May and June the unit and revenue went down. so, the question is what could have happened to course the reduction in revenue.What have we done wrong or what is needed to do.
+
+### 2. Revenue by Segment chart donot chart
+Moderate has the highest and select as the lowest
+
+### 3. Sum of Revenue by Manufacturer Chart (prediction)
+At this point we can see that VanAsrdel has the highest revenues 
+As i said earlier it is good for us VanAsrdel to have the highest revenue having gotten 11.3 million for the year
+if we want to make a prediction for the future sales, what can we do to have more higher revenue in the nearest future- 
+so with this chart we can say a particular month we need to do this or if their a peak peroid or an activites is going on. 
+So with the help of his data wa can make prediction for 1- 3 years may be VanAsrdel will continue be the head of the market.
+
+### 4. Reveue by Monthname and Manufature chart
+The Competitors and VanAsrdel our goal is to be known we are going well and to be able to do more.
+What can we do not to go down and what to put in place.
+
+#### 5. Under Category 
+We can see the growth is the lowest.
+### Recommendation
+in all about the report
+We need to focus on the perfomance
+We are we doing to achive more revenue and What are not doing to achive lower revenue.
+Also to have more revenue.
+
 
 ## Discovery
 
