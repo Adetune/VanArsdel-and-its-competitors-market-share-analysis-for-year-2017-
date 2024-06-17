@@ -1,11 +1,11 @@
-# VanArsdel and its competitors
-## market share analysis for year 2017
-## Excel to Power BI Project
+# VanArsdel and its Competitors
+# Sales and Market Share Analysis for year 2017
+## Excel to Power BI Project usihg ETL Process
 
 ![excel-to-powerbi-animated-diagram](assets/images/excel_pbi.png)
 
 
-
+This is an ETL process as simple as pssible where data get extracted, transformed and imported to a Power BI envoromnent.
 
 # Table of contents 
 
