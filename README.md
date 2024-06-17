@@ -5,7 +5,7 @@
 ![excel-to-powerbi-animated-diagram](assets/images/excel_pbi.png)
 
 
-## This is an ETL process as simple as pssible where data get extracted, transformed and imported to a Power BI envoromnent.
+## This is an ETL process as simple as possible where dataset provided which focuses on Sales and Market Share Analysis get extracted, transformed and imported to a Power BI envoromnent.
 
 # Table of contents 
 
@@ -70,7 +70,7 @@ This dashboard should allow me to identify or show the market shares analysis.
 This dashboard should allow me to analyse Sales by State
 This dashboard should allow me to compare revenue by category and state in tabular view.
 
-With this information, I can make more informed decisions abouthow well our company VanArsdel product sell in 2017.
+With this information, I can make more informed decisions about how well our company VanArsdel product sell in 2017.
 Also how well VanArsdel product doing against our competing product in the industry for the year 2017. 
 
 
@@ -369,6 +369,14 @@ in all about the report
 We need to focus on the perfomance
 We are we doing to achive more revenue and What are not doing to achive lower revenue.
 Also to have more revenue.
+
+## Overview
+Total sales & units for all Companies in this year comparing by last year sales calculates sales variance between this year and last year sales . total sales for every country by population over the years i want to compare between vanarsdel and another company by pressing here it will change information in all graphs.
+## Process
+i calculated total sales and units for all companies in this year comparing two last year sales in this section calculating the sales variance between this year and the last year's sales if positive it will be green negative it will be read in this section
+calculating two teslas for every country by population over the years it will change from year to another in this section i calculating two tell sales by manufacturers
+if i choose one other company it will change total sales and total units sells the market share unit market share if i wanted to compare between one other and another company i would choose a best company it will change all information in this
+graph and in these boxes tutorials total units everything will change okay that's it
 
 
 ## Discovery
