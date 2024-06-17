@@ -1,6 +1,6 @@
 # VanArsdel and its Competitors
-# Sales and Market Share Analysis for year 2017
-## Excel to Power BI Project usihg ETL Process
+# Sales and Market Share Analysis for year 2017.
+## Excel to Power BI Project using ETL Process
 
 ![excel-to-powerbi-animated-diagram](assets/images/excel_pbi.png)
 
