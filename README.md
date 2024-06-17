@@ -5,7 +5,7 @@
 ![excel-to-powerbi-animated-diagram](assets/images/excel_pbi.png)
 
 
-## This is an ETL process as simple as possible where dataset provided which focuses on Sales and Market Share Analysis get extracted, transformed and imported to a Power BI envoromnent.
+#### This is an ETL process as simple as possible where dataset provided which focuses on Sales and Market Share Analysis get extracted, transformed and imported to a Power BI envoromnent.
 
 # Table of contents 
 
