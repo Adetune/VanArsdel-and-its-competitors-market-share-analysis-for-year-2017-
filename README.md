@@ -320,6 +320,13 @@ RETURN % Growth
 ### Predictive
 
 ### Forecasting
+It says look at the way this thread is going if nothing chnages VanAsdrel will continue to have an Upper Band statitical of this level
+in 2016 --- 4.5
+  2017 --- 2.2
+  All things been equally we want to see what will happen in 2011
+  If nothing changes VanAsdrel will continue to be going down if not carefull. 10 years down the line VanAsdrel willbemaking --Negative.
+  Noted the basic rule of machine learing statistis you need more than enought dataset to be able to accurate predition.
+  
 
 
 
